@@ -7,7 +7,7 @@ public class ThreeTickHunterPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ThreeTickHunterPlugin.class);
+		ExternalPluginManager.loadBuiltin(ThreeTickHunterPlugin.class, SessionRecorderPlugin.class);
 		RuneLite.main(args);
 	}
 }
